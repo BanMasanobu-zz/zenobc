@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		330DF98B222B90D100B045A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 330DF98A222B90D100B045A0 /* AppDelegate.m */; };
+		330DF98E222B90D100B045A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 330DF98D222B90D100B045A0 /* ViewController.m */; };
+		330DF991222B90D100B045A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 330DF98F222B90D100B045A0 /* Main.storyboard */; };
+		330DF993222B90D100B045A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 330DF992222B90D100B045A0 /* Assets.xcassets */; };
+		330DF996222B90D100B045A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 330DF994222B90D100B045A0 /* LaunchScreen.storyboard */; };
+		330DF999222B90D100B045A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 330DF998222B90D100B045A0 /* main.m */; };
+		330DF9A3222B90D100B045A0 /* zenobcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 330DF9A2222B90D100B045A0 /* zenobcTests.m */; };
+		330DF9AE222B90D100B045A0 /* zenobcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 330DF9AD222B90D100B045A0 /* zenobcUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		330DF99F222B90D100B045A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 330DF97E222B90D000B045A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 330DF985222B90D000B045A0;
+			remoteInfo = zenobc;
+		};
+		330DF9AA222B90D100B045A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 330DF97E222B90D000B045A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 330DF985222B90D000B045A0;
+			remoteInfo = zenobc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		330DF986222B90D100B045A0 /* zenobc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zenobc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		330DF989222B90D100B045A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		330DF98A222B90D100B045A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		330DF98C222B90D100B045A0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		330DF98D222B90D100B045A0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		330DF990222B90D100B045A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		330DF992222B90D100B045A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		330DF995222B90D100B045A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		330DF997222B90D100B045A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		330DF998222B90D100B045A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		330DF99E222B90D100B045A0 /* zenobcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zenobcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		330DF9A2222B90D100B045A0 /* zenobcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zenobcTests.m; sourceTree = "<group>"; };
+		330DF9A4222B90D100B045A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		330DF9A9222B90D100B045A0 /* zenobcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zenobcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		330DF9AD222B90D100B045A0 /* zenobcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zenobcUITests.m; sourceTree = "<group>"; };
+		330DF9AF222B90D100B045A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		330DF983222B90D000B045A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330DF99B222B90D100B045A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330DF9A6222B90D100B045A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		330DF97D222B90D000B045A0 = {
+			isa = PBXGroup;
+			children = (
+				330DF988222B90D100B045A0 /* zenobc */,
+				330DF9A1222B90D100B045A0 /* zenobcTests */,
+				330DF9AC222B90D100B045A0 /* zenobcUITests */,
+				330DF987222B90D100B045A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		330DF987222B90D100B045A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				330DF986222B90D100B045A0 /* zenobc.app */,
+				330DF99E222B90D100B045A0 /* zenobcTests.xctest */,
+				330DF9A9222B90D100B045A0 /* zenobcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		330DF988222B90D100B045A0 /* zenobc */ = {
+			isa = PBXGroup;
+			children = (
+				330DF989222B90D100B045A0 /* AppDelegate.h */,
+				330DF98A222B90D100B045A0 /* AppDelegate.m */,
+				330DF98C222B90D100B045A0 /* ViewController.h */,
+				330DF98D222B90D100B045A0 /* ViewController.m */,
+				330DF98F222B90D100B045A0 /* Main.storyboard */,
+				330DF992222B90D100B045A0 /* Assets.xcassets */,
+				330DF994222B90D100B045A0 /* LaunchScreen.storyboard */,
+				330DF997222B90D100B045A0 /* Info.plist */,
+				330DF998222B90D100B045A0 /* main.m */,
+			);
+			path = zenobc;
+			sourceTree = "<group>";
+		};
+		330DF9A1222B90D100B045A0 /* zenobcTests */ = {
+			isa = PBXGroup;
+			children = (
+				330DF9A2222B90D100B045A0 /* zenobcTests.m */,
+				330DF9A4222B90D100B045A0 /* Info.plist */,
+			);
+			path = zenobcTests;
+			sourceTree = "<group>";
+		};
+		330DF9AC222B90D100B045A0 /* zenobcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				330DF9AD222B90D100B045A0 /* zenobcUITests.m */,
+				330DF9AF222B90D100B045A0 /* Info.plist */,
+			);
+			path = zenobcUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		330DF985222B90D000B045A0 /* zenobc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 330DF9B2222B90D100B045A0 /* Build configuration list for PBXNativeTarget "zenobc" */;
+			buildPhases = (
+				330DF982222B90D000B045A0 /* Sources */,
+				330DF983222B90D000B045A0 /* Frameworks */,
+				330DF984222B90D000B045A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zenobc;
+			productName = zenobc;
+			productReference = 330DF986222B90D100B045A0 /* zenobc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		330DF99D222B90D100B045A0 /* zenobcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 330DF9B5222B90D100B045A0 /* Build configuration list for PBXNativeTarget "zenobcTests" */;
+			buildPhases = (
+				330DF99A222B90D100B045A0 /* Sources */,
+				330DF99B222B90D100B045A0 /* Frameworks */,
+				330DF99C222B90D100B045A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				330DF9A0222B90D100B045A0 /* PBXTargetDependency */,
+			);
+			name = zenobcTests;
+			productName = zenobcTests;
+			productReference = 330DF99E222B90D100B045A0 /* zenobcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		330DF9A8222B90D100B045A0 /* zenobcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 330DF9B8222B90D100B045A0 /* Build configuration list for PBXNativeTarget "zenobcUITests" */;
+			buildPhases = (
+				330DF9A5222B90D100B045A0 /* Sources */,
+				330DF9A6222B90D100B045A0 /* Frameworks */,
+				330DF9A7222B90D100B045A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				330DF9AB222B90D100B045A0 /* PBXTargetDependency */,
+			);
+			name = zenobcUITests;
+			productName = zenobcUITests;
+			productReference = 330DF9A9222B90D100B045A0 /* zenobcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		330DF97E222B90D000B045A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "伴正信";
+				TargetAttributes = {
+					330DF985222B90D000B045A0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					330DF99D222B90D100B045A0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 330DF985222B90D000B045A0;
+					};
+					330DF9A8222B90D100B045A0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 330DF985222B90D000B045A0;
+					};
+				};
+			};
+			buildConfigurationList = 330DF981222B90D000B045A0 /* Build configuration list for PBXProject "zenobc" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 330DF97D222B90D000B045A0;
+			productRefGroup = 330DF987222B90D100B045A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				330DF985222B90D000B045A0 /* zenobc */,
+				330DF99D222B90D100B045A0 /* zenobcTests */,
+				330DF9A8222B90D100B045A0 /* zenobcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		330DF984222B90D000B045A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330DF996222B90D100B045A0 /* LaunchScreen.storyboard in Resources */,
+				330DF993222B90D100B045A0 /* Assets.xcassets in Resources */,
+				330DF991222B90D100B045A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330DF99C222B90D100B045A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330DF9A7222B90D100B045A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		330DF982222B90D000B045A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330DF98E222B90D100B045A0 /* ViewController.m in Sources */,
+				330DF999222B90D100B045A0 /* main.m in Sources */,
+				330DF98B222B90D100B045A0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330DF99A222B90D100B045A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330DF9A3222B90D100B045A0 /* zenobcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330DF9A5222B90D100B045A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330DF9AE222B90D100B045A0 /* zenobcUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		330DF9A0222B90D100B045A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 330DF985222B90D000B045A0 /* zenobc */;
+			targetProxy = 330DF99F222B90D100B045A0 /* PBXContainerItemProxy */;
+		};
+		330DF9AB222B90D100B045A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 330DF985222B90D000B045A0 /* zenobc */;
+			targetProxy = 330DF9AA222B90D100B045A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		330DF98F222B90D100B045A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				330DF990222B90D100B045A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		330DF994222B90D100B045A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				330DF995222B90D100B045A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		330DF9B0222B90D100B045A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		330DF9B1222B90D100B045A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		330DF9B3222B90D100B045A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = zenobc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zenobc.zenobc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		330DF9B4222B90D100B045A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = zenobc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zenobc.zenobc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		330DF9B6222B90D100B045A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = zenobcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zenobc.zenobcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zenobc.app/zenobc";
+			};
+			name = Debug;
+		};
+		330DF9B7222B90D100B045A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = zenobcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zenobc.zenobcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zenobc.app/zenobc";
+			};
+			name = Release;
+		};
+		330DF9B9222B90D100B045A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = zenobcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zenobc.zenobcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = zenobc;
+			};
+			name = Debug;
+		};
+		330DF9BA222B90D100B045A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = zenobcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zenobc.zenobcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = zenobc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		330DF981222B90D000B045A0 /* Build configuration list for PBXProject "zenobc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				330DF9B0222B90D100B045A0 /* Debug */,
+				330DF9B1222B90D100B045A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		330DF9B2222B90D100B045A0 /* Build configuration list for PBXNativeTarget "zenobc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				330DF9B3222B90D100B045A0 /* Debug */,
+				330DF9B4222B90D100B045A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		330DF9B5222B90D100B045A0 /* Build configuration list for PBXNativeTarget "zenobcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				330DF9B6222B90D100B045A0 /* Debug */,
+				330DF9B7222B90D100B045A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		330DF9B8222B90D100B045A0 /* Build configuration list for PBXNativeTarget "zenobcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				330DF9B9222B90D100B045A0 /* Debug */,
+				330DF9BA222B90D100B045A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 330DF97E222B90D000B045A0 /* Project object */;
+}
